@@ -25,8 +25,10 @@ public class SkipDisableTryCatch extends Config{
 	public void tryCatchWatchTest(){
 		System.out.println (" try catch block test");
 		driver.findElement(By.xpath(MusicLoc)).getText();
+	
 		String actual 		= "Musics";
 		String expected 	= "Music";
+	
 		try {
 			Assert.assertEquals(actual, expected);
 		}catch (Throwable issue){
