@@ -1,95 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-29T16:03:05 EDT" name="Default suite" finished-at="2020-06-29T16:03:37 EDT" duration-ms="31629">
+  <suite started-at="2020-07-03T22:45:18 EDT" name="Default suite" finished-at="2020-07-03T22:45:48 EDT" duration-ms="30184">
     <groups>
     </groups>
-    <test started-at="2020-06-29T16:03:05 EDT" name="Default test" finished-at="2020-06-29T16:03:37 EDT" duration-ms="31629">
-      <class name="june28Test.SkipDisableTryCatch">
-        <test-method is-config="true" signature="dbConnect()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:05 EDT" name="dbConnect" finished-at="2020-06-29T16:03:05 EDT" duration-ms="66" status="PASS">
+    <test started-at="2020-07-03T22:45:18 EDT" name="Default test" finished-at="2020-07-03T22:45:48 EDT" duration-ms="30184">
+      <class name="june28Test.ExtendsPra1">
+        <test-method is-config="true" signature="dbConnect()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:18 EDT" name="dbConnect" finished-at="2020-07-03T22:45:18 EDT" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnect -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:05 EDT" name="openBrowser" finished-at="2020-06-29T16:03:18 EDT" duration-ms="12572" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:18 EDT" name="openBrowser" finished-at="2020-07-03T22:45:27 EDT" duration-ms="9428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="SkipWatchTest()[pri:4, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:18 EDT" name="SkipWatchTest" finished-at="2020-06-29T16:03:18 EDT" duration-ms="125" status="SKIP">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[skipping this test because business requiment is changed. Here is the JIRA Ticket # AP-001]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: skipping this test because business requiment is changed. Here is the JIRA Ticket # AP-001
-at june28Test.SkipDisableTryCatch.SkipWatchTest(SkipDisableTryCatch.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+        <test-method signature="appleMacTest()[pri:1, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:27 EDT" name="appleMacTest" finished-at="2020-07-03T22:45:27 EDT" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SkipWatchTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:18 EDT" name="closeBrowser" finished-at="2020-06-29T16:03:18 EDT" duration-ms="126" status="PASS">
+        </test-method> <!-- appleMacTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:27 EDT" name="closeBrowser" finished-at="2020-07-03T22:45:27 EDT" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:18 EDT" name="openBrowser" finished-at="2020-06-29T16:03:27 EDT" duration-ms="8820" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:27 EDT" name="openBrowser" finished-at="2020-07-03T22:45:34 EDT" duration-ms="6617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="distableTVTest()[pri:5, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:27 EDT" name="distableTVTest" finished-at="2020-06-29T16:03:27 EDT" duration-ms="62" status="PASS">
+        <test-method signature="appleiPadTest()[pri:2, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:34 EDT" name="appleiPadTest" finished-at="2020-07-03T22:45:34 EDT" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- distableTVTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:27 EDT" name="closeBrowser" finished-at="2020-06-29T16:03:27 EDT" duration-ms="102" status="PASS">
+        </test-method> <!-- appleiPadTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:34 EDT" name="closeBrowser" finished-at="2020-07-03T22:45:34 EDT" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:27 EDT" name="openBrowser" finished-at="2020-06-29T16:03:37 EDT" duration-ms="9519" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:34 EDT" name="openBrowser" finished-at="2020-07-03T22:45:41 EDT" duration-ms="6707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="tryCatchWatchTest()[pri:6, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:37 EDT" name="tryCatchWatchTest" finished-at="2020-06-29T16:03:37 EDT" duration-ms="87" status="PASS">
+        <test-method signature="appleiPhoneTest()[pri:3, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:41 EDT" name="appleiPhoneTest" finished-at="2020-07-03T22:45:41 EDT" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tryCatchWatchTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:37 EDT" name="closeBrowser" finished-at="2020-06-29T16:03:37 EDT" duration-ms="150" status="PASS">
+        </test-method> <!-- appleiPhoneTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:41 EDT" name="closeBrowser" finished-at="2020-07-03T22:45:41 EDT" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:june28Test.SkipDisableTryCatch@2133814f]" started-at="2020-06-29T16:03:37 EDT" name="teardown" finished-at="2020-06-29T16:03:38 EDT" duration-ms="591" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:41 EDT" name="openBrowser" finished-at="2020-07-03T22:45:48 EDT" duration-ms="6653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="appleSearchTest()[pri:8, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:48 EDT" name="appleSearchTest" finished-at="2020-07-03T22:45:48 EDT" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleSearchTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:48 EDT" name="closeBrowser" finished-at="2020-07-03T22:45:48 EDT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:june28Test.ExtendsPra1@70be0a2b]" started-at="2020-07-03T22:45:48 EDT" name="teardown" finished-at="2020-07-03T22:45:48 EDT" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- june28Test.SkipDisableTryCatch -->
+      </class> <!-- june28Test.ExtendsPra1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
